@@ -16,7 +16,9 @@
 		4223C7F32BE96E90008884C8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4223C7F22BE96E90008884C8 /* Coordinator.swift */; };
 		4223C7F52BE96FED008884C8 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4223C7F42BE96FED008884C8 /* MainCoordinator.swift */; };
 		424C72802BE976450091A467 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C727F2BE976450091A467 /* MainViewController.swift */; };
-		424C72822BE9786C0091A467 /* MainSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C72812BE9786C0091A467 /* MainSwiftUIView.swift */; };
+		424C72852BE981A10091A467 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C72842BE981A10091A467 /* CardListViewModel.swift */; };
+		424C72872BE9829F0091A467 /* CardListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C72862BE9829F0091A467 /* CardListSwiftUIView.swift */; };
+		424C72892BE9830F0091A467 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C72882BE9830F0091A467 /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,9 @@
 		4223C7F22BE96E90008884C8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		4223C7F42BE96FED008884C8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		424C727F2BE976450091A467 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		424C72812BE9786C0091A467 /* MainSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSwiftUIView.swift; sourceTree = "<group>"; };
+		424C72842BE981A10091A467 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		424C72862BE9829F0091A467 /* CardListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListSwiftUIView.swift; sourceTree = "<group>"; };
+		424C72882BE9830F0091A467 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		4212BD152BC5C8E400AAFC84 /* opBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				424C72832BE981920091A467 /* CardList */,
 				4212BD162BC5C8E400AAFC84 /* AppDelegate.swift */,
 				4223C7F22BE96E90008884C8 /* Coordinator.swift */,
 				4223C7F42BE96FED008884C8 /* MainCoordinator.swift */,
@@ -108,7 +113,6 @@
 				4212BD212BC5C8E800AAFC84 /* LaunchScreen.storyboard */,
 				4212BD242BC5C8E800AAFC84 /* Info.plist */,
 				424C727F2BE976450091A467 /* MainViewController.swift */,
-				424C72812BE9786C0091A467 /* MainSwiftUIView.swift */,
 			);
 			path = opBuilder;
 			sourceTree = "<group>";
@@ -128,6 +132,16 @@
 				4212BD392BC5C8E900AAFC84 /* opBuilderUITestsLaunchTests.swift */,
 			);
 			path = opBuilderUITests;
+			sourceTree = "<group>";
+		};
+		424C72832BE981920091A467 /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				424C72842BE981A10091A467 /* CardListViewModel.swift */,
+				424C72862BE9829F0091A467 /* CardListSwiftUIView.swift */,
+				424C72882BE9830F0091A467 /* CardModel.swift */,
+			);
+			path = CardList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +280,10 @@
 				4223C7F32BE96E90008884C8 /* Coordinator.swift in Sources */,
 				4212BD172BC5C8E400AAFC84 /* AppDelegate.swift in Sources */,
 				4223C7F52BE96FED008884C8 /* MainCoordinator.swift in Sources */,
+				424C72892BE9830F0091A467 /* CardModel.swift in Sources */,
 				424C72802BE976450091A467 /* MainViewController.swift in Sources */,
-				424C72822BE9786C0091A467 /* MainSwiftUIView.swift in Sources */,
+				424C72872BE9829F0091A467 /* CardListSwiftUIView.swift in Sources */,
+				424C72852BE981A10091A467 /* CardListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
